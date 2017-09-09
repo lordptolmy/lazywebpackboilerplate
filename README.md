@@ -8,7 +8,7 @@ __npm install -g webpack__
 
 Install modules:
 
-__npm installs__
+__npm install__
 
 Then run the setup:
 
