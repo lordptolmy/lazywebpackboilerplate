@@ -1,0 +1,26 @@
+{
+  "name": "webpackboilerplate",
+  "version": "1.0.0",
+  "description": "A webpack boilerplate for webpack and es6 projects.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --content-base public --port 3000 --host 0.0.0.0",
+    "setup:dev": "export NODE_ENV=development"
+  },
+  "author": "Nicholas Kirkiridis <nkirkiridis@outlook.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "file-loader": "^0.11.2",
+    "imports-loader": "^0.7.1",
+    "url-loader": "^0.5.9",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
