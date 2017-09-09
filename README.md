@@ -1,13 +1,13 @@
-#Webpack Boilerplate
+# Webpack Boilerplate
 
-##Setup 
+## Setup 
 
 __npm run setup__
 
-##Dev server
+## Dev server
 
 __npm start__
 
-##Notes
+## Notes
 
 * Files are all served from public directory by the webpack development server
